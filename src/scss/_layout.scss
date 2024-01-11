@@ -9,3 +9,13 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+.no-gutter > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.small-gutter > [class*="col-"] {
+  padding-right: 50;
+  padding-left: 50;
+}

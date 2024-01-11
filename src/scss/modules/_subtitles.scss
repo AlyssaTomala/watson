@@ -1,0 +1,20 @@
+.subtitles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  opacity: 0.75;
+}
+.subtitles-01,
+.subtitles-highlight {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.subtitles-flash,
+.subtitles-news,
+.subtitles-highlight-second {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}

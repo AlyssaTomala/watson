@@ -1,0 +1,104 @@
+.article {
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.article:hover {
+  width: 100.2%;
+
+  cursor: pointer;
+}
+
+.article img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.article img:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.article-text {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  background: rgb(29, 29, 29);
+  background: linear-gradient(
+    0deg,
+    rgba(29, 29, 29, 1) 0%,
+    rgba(29, 29, 29, 0) 100%
+  );
+}
+
+.test {
+  padding: 20px;
+}
+
+.article-01-text {
+  padding: 20px;
+  height: 20%;
+}
+
+.article-01 {
+  height: 100vh;
+  position: relative;
+}
+
+.article-flash-background {
+  background: linear-gradient(88.15deg, #00b4e5 -54.7%, #000000 111.37%);
+  opacity: 0.9;
+}
+
+.article-flash {
+  position: relative;
+  aspect-ratio: 1/0.75;
+}
+
+.article-flash-text {
+  padding: 10px;
+  height: 42%;
+}
+
+.article-news {
+  position: relative;
+  height: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-image: linear-gradient(90deg, #c4007a, rgba(0, 179, 229, 0.1)) 1;
+}
+
+.article-news-text {
+  padding: 15px;
+  height: 35%;
+}
+
+.article-highlight {
+  position: relative;
+  border-style: solid;
+  border-width: 4px;
+  border-image: linear-gradient(45deg, #c4007a, #c4007991) 1;
+  aspect-ratio: 12/5;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.article-highlight-second {
+  position: relative;
+  aspect-ratio: 59/25;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-image: linear-gradient(90deg, #00b4e5, #00b3e500) 1;
+}
+
+.article-highlight-text {
+  padding: 30px;
+}
+
+.article-highlight-text-second {
+  padding: 15px;
+}

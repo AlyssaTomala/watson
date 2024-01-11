@@ -1,0 +1,16 @@
+.button img {
+  width: 4.5vh;
+  margin: -10px;
+  box-shadow: none;
+}
+
+.button {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  margin: 5px;
+}
+
+.button img:hover {
+  width: 4.6vh;
+}
