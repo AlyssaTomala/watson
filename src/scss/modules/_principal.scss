@@ -1,18 +1,37 @@
 .principal {
   color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
 }
 
-.principal-title,
-.principal-highlight {
-  font-size: 35px;
-}
-
-.principal-flash,
-.principal-news-second,
-.principal-highlight-second {
+.principal-flash {
   font-size: 24px;
 }
 
-.principal-news {
-  font-size: 30px;
+@media (min-width: 768px) {
+  .principal-title,
+  .principal-highlight {
+    font-size: 30px;
+  }
+
+  .principal-news-second,
+  .principal-highlight-second,
+  .principal-news {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .principal-title,
+  .principal-highlight {
+    font-size: 40px;
+  }
+
+  .principal-title {
+    margin-bottom: 20px;
+  }
+  .principal-news,
+  .principal-flash {
+    font-size: 30px;
+  }
 }

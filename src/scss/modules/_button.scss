@@ -13,4 +13,15 @@
 
 .button img:hover {
   width: 4.6vh;
+  box-shadow: none;
+}
+
+.button-title {
+  position: absolute;
+  right: 1%;
+  top: 9;
+}
+
+.button-title img {
+  width: 5.5vh;
 }

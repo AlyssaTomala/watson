@@ -7,8 +7,8 @@
 }
 .subtitles-01,
 .subtitles-highlight {
-  font-size: 18px;
-  margin-top: 20px;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .subtitles-flash,
@@ -17,4 +17,35 @@
   font-size: 14px;
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .subtitles-01,
+  .subtitles-highlight {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+  .subtitles-flash,
+  .subtitles-news,
+  .subtitles-highlight-second {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subtitles-01,
+  .subtitles-highlight {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .subtitles-flash,
+  .subtitles-news,
+  .subtitles-highlight-second {
+    margin-top: 14px;
+    margin-bottom: 20px;
+  }
 }

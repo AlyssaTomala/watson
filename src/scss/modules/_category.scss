@@ -1,5 +1,29 @@
 .category {
   color: #00b4e5;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 18px;
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  .category {
+    font-size: 22px;
+  }
+
+  .category-news {
+    margin-bottom: 5px;
+  }
+}
+
+.category-title,
+.category-highlight {
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .category-title,
+  .category-highlight {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
 }
