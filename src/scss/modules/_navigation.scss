@@ -1,0 +1,38 @@
+.navigation {
+  background-color: #222222;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.navigation img {
+  height: 50px;
+}
+.nav-language {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.nav-language p {
+  margin-right: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nav-language-fr {
+  color: #c4007a;
+}
+
+.nav-burger img {
+  height: 35px;
+  padding: 5px;
+}
